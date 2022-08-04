@@ -1,0 +1,153 @@
+
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width:1200px) {
+  .container {
+    padding: 0 3rem;
+  }
+    .hero {
+      transform: translate(-5%, 50%);
+    }
+  
+    .hero h1 {
+      font-size: 7rem;
+    }
+    .hero {
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 30px;
+  }
+  }
+
+  @media only screen and (max-width:996px)  {
+    .hero {
+      transform: translate(5%, 50%);
+    }
+  
+    .hero h1 {
+      font-size: 6rem;
+    }
+    .hero {
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 30px;
+  }
+  }
+
+  @media only screen and (max-width: 967px) {
+    .icons {
+      display: none;
+    }
+    .hero {
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 30px;
+  }
+  }
+
+  @media only screen and (max-width:768px) {
+    .hero h1 {
+      font-size: 5rem;
+    }
+    .skill-center {
+        grid-template-columns: 1fr;
+      }
+      .blog-center {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+      .contact-center{
+        grid-template-columns: 1fr;
+      }
+    
+      .contact-center .left{
+        text-align: left;
+      }
+    
+      .left div .content h3{
+        font-size: 1.6rem;
+      }
+    
+      .left div .content span{
+        font-size: 1.5rem;
+      }
+      .service {
+        padding: 4rem 2rem;
+      }
+      .hero {
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 20px;
+    }
+    .right p {
+      font-size: 14px;
+    }
+  }
+
+
+  @media only screen and (max-width:567px) {
+    .hero {
+      top: 65%;
+      transform: translate(0, -50%);
+    }
+  
+    .hero h1 {
+      font-size: 4rem;
+    }
+  
+    .hero h3 {
+      font-size: 1.6rem;
+    }
+  
+    .hero h4 {
+      font-size: 1.6rem;
+    }
+    .blog-center {
+        grid-template-columns: 1fr;
+        gap: 4rem 0;
+      }
+
+      .service {
+        padding: 4rem 4rem;
+      }
+
+      .about-center {
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 1rem 5rem;
+      }
+
+      .hero {
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 20px;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .hero a:link,
+    .hero a:visited {
+      color: #fff;
+      margin-top: 5rem;
+    }
+    .hero h4{
+        margin-top: 1rem;
+    }
+    .right p {
+        font-size: 14px;
+    }
+    .service p {
+        font-size: 1rem;
+        color: #f1f1f1;
+    }
+    .skills-center {
+      display: grid;
+      grid-template-columns:  1fr;
+      gap: 5rem;
+    }
+  }
